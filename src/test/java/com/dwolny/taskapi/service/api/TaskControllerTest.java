@@ -1,7 +1,8 @@
-package com.dwolny.taskapi.service;
+package com.dwolny.taskapi.service.api;
 
 import com.dwolny.taskapi.enums.TaskStatus;
 import com.dwolny.taskapi.model.Task;
+import com.dwolny.taskapi.service.TaskService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
